@@ -1,0 +1,156 @@
+Prompt:
+You are given a resume in PDF format. Your task is to parse the content and provide it in JSON format. Here is the resume content:
+
+The JSON format should include sections such as "Name", "Contact Information", "Summary", "Education", "Skills", "Experience", "Projects", "Certifications", "Achievements", "Interests", and "Personal Details". 
+
+Ensure the structure follows this format:
+
+```json
+{
+    "Name": "Rishabh Sharma",
+    "Contact Information": {
+        "Phone": "+91-8839672172",
+        "Email": "rs9756@srmist.edu.in",
+        "LinkedIn": "https://www.linkedin.com/in/notrishabhh/",
+        "Address": {
+            "Current": "32, Thiruavalluvar Street, Potheri, Chengalpattu, Tamil Nadu, India - 603203",
+            "Permanent": "Ram Nagar Colony, Gali No. 3, Joura, Madhya Pradesh, India - 476221"
+        }
+    },
+    "Summary": "I'm Rishabh Sharma, currently a third-year student pursuing a B.Tech degree in Computer Science and Engineering, a passionate individual dedicated to driving positive change in the world of technology and education...",
+    "Education": [
+        {
+            "Degree": "B.Tech - Computer Science & Engineering",
+            "Institution": "SRM Institute of Science & Technology, Kattankulathur",
+            "Year": "2021 - 2025",
+            "CGPA": "9.10 / 10"
+        },
+        {
+            "Degree": "12th",
+            "Institution": "G.D. H.S.SCHOOL, BLOCKPURA JOURA, MORENA, Joura",
+            "Year": "2020",
+            "Percentage": "70.80 / 100"
+        },
+        {
+            "Degree": "10th",
+            "Institution": "NEIIL WORLD SCHOOL AB ROAD MORENA MP, Morena",
+            "Year": "2018",
+            "Percentage": "73.16 / 100"
+        }
+    ],
+    "Skills": [
+        "C", "C++", "Unity3D", "Vuforia", "Tableau", "Python", "SQL", "SQLite", "Problem Solving", "Data Structures", "Cisco Packet Tracer", "Algorithms", "Artificial Intelligence", "Machine Learning", "Matplotlib", "Data Analytics", "Redhat Linux", "System Administration", "Spark AR Studio", "Blender", "Networking"
+    ],
+    "Experience": [
+        {
+            "Title": "AI/ML Intern",
+            "Company": "Centre for Artificial Intelligence and Robotics, DRDO, Bangalore",
+            "Duration": "05 Jun, 2024 - Present",
+            "Skills": ["Cryptanalysis", "ML", "AI"],
+            "Responsibilities": [
+                "Conducted comprehensive research on existing cryptographic methods and identified potential vulnerabilities.",
+                "Applied machine learning models to improve the efficiency and accuracy of cryptanalysis processes."
+            ]
+        },
+        {
+            "Title": "Python Development Intern",
+            "Company": "Code Clause",
+            "Duration": "01 Oct, 2023 - 30 Nov, 2023",
+            "Skills": ["Python"],
+            "Responsibilities": [
+                "Developed four Python projects: a Music Player, a GUI Mail Application, a Calculator, and a Speed Typing Test."
+            ]
+        },
+        {
+            "Title": "Cyber Security Intern",
+            "Company": "AICTE Eduskills - Palo Alto Networks",
+            "Duration": "01 Sep, 2023 - 30 Nov, 2023",
+            "Skills": [],
+            "Responsibilities": [
+                "Learnt about threat analysis, incident response, and the development of security policies."
+            ]
+        }
+    ],
+    "Projects": [
+        {
+            "Title": "JET TURBINE SIMULATOR",
+            "Skills": ["Unity 3D", "GOOGLE AR CORE", "AR FOUNDATION", "Blender", "C#"],
+            "Link": "https://github.com/notrishabhh/JET-TURBINE-SIMULATOR",
+            "Description": "The Jet Turbine Simulator is a software project that simulates the operation of a jet turbine..."
+        },
+        {
+            "Title": "RFID-AND-FACE-RECOGNITION-ACCESS-SYSTEM",
+            "Skills": ["RFID", "ESP8266", "Firebase", "Javascript", "Face Recognition", "HTML", "CSS", "AI"],
+            "Link": "https://github.com/notrishabhh/RFID-AND-FACE-RECOGNITION-ACCESS-SYSTEM",
+            "Description": "Uses RFID readers and cameras connected to a Raspberry Pi for dual authentication..."
+        },
+        {
+            "Title": "Weather-Forecasting-Tool",
+            "Skills": ["Python"],
+            "Link": "https://github.com/notrishabhh/Weather-Forecasting-Tool-Using-Python",
+            "Description": "Developed a weather forecasting system in Python that uses historical weather data to predict future weather conditions."
+        },
+        {
+            "Title": "Air-Quality-Analyzer",
+            "Skills": ["C++"],
+            "Link": "https://github.com/notrishabhh/Air-Quality-Analyzer",
+            "Description": "This project is a DIY air quality analyzer built using an ESP8266 microcontroller..."
+        },
+        {
+            "Title": "OTP-Verification",
+            "Skills": ["Python"],
+            "Link": "https://github.com/notrishabhh/OTP-Verification-Using-Python",
+            "Description": "Developed an OTP verification system in Python that uses email to send and verify one-time passwords."
+        }
+    ],
+    "Certifications": [
+        {
+            "Title": "Red Hat Certified System Administrator (RHCSA)",
+            "Date": "09 Feb, 2027",
+            "Aggregate": "100 / 100",
+            "Skills": ["RedHat Enterprise Linux", "Linux System Administration"]
+        },
+        {
+            "Title": "Alteryx Designer Core",
+            "Date": "30 Mar, 2026",
+            "Skills": ["Alteryx", "Analytical Thinking", "Building Workflows", "Data Analysis", "Data Blending", "Data Cleaning", "Data Preparation", "Data Processing", "ETL", "Problem Solving"]
+        },
+        {
+            "Title": "Network Technician Career Path",
+            "Skills": ["Cisco Packet Tracer", "Networking"]
+        },
+        {
+            "Title": "Bridge Course on Cloud Solution Architect",
+            "Aggregate": "82.83 / 100",
+            "Skills": ["Cloud Computing"]
+        },
+        {
+            "Title": "AWS Academy Graduate - AWS Academy Cloud Foundations",
+            "Skills": ["Cloud Foundations"]
+        },
+        {
+            "Title": "Machine Learning Fundamentals Micro-Credential",
+            "Skills": ["Machine Learning"]
+        },
+        {
+            "Title": "Problem Solving (Intermediate)",
+            "Skills": ["Problem Solving"]
+        },
+        {
+            "Title": "SQL (Intermediate)",
+            "Skills": ["SQL"]
+        }
+    ],
+    "Achievements": [
+        "WAVE’24 Project Expo First Runner Up",
+        "TRIKON UNITE Hackathon First Runner Up"
+    ],
+    "Interests": ["Hackathon", "Project EXPO", "Seminar", "Workshops", "Badminton", "Singing"],
+    "Personal Details": {
+        "Gender": "Male",
+        "Marital Status": "Single",
+        "Date of Birth": "18 Apr, 2003",
+        "Known Languages": ["English", "Hindi"]
+    }
+}
+
